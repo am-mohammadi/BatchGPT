@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/BatchGPT/Cleaner.py
+src/BatchGPT/Prompt.py
+src/BatchGPT.egg-info/PKG-INFO
+src/BatchGPT.egg-info/SOURCES.txt
+src/BatchGPT.egg-info/dependency_links.txt
+src/BatchGPT.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+deep_translator
+pandas
+PGD
+tiktoken==0.4.0
+tqdm
