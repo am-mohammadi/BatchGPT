@@ -10,7 +10,7 @@ Example for Instagram comments:
 
 Cleaning Dataset
 ```python
-import Cleaner
+from BatchGPT import Cleaner
 import pandas as pd
 #Dataset Must contain 'id' and 'text' columns
 df=pd.read_csv('data.csv', usecols=['pk', 'text']).rename(
@@ -23,7 +23,7 @@ df_cleaned=Cleaner.clean(df.copy())
 
 Writing Prompts
 ```python
-from Prompt import PromptHandler
+from BatchGPT.Prompt import PromptHandler
 #Loading Cleaned dataset
 ph=PromptHandler()
 ph.prompt.info='here are some Instagram comments about a post. the post is a video that shows blah blah. "Mohsen F" is the owner of the post.'
