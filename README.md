@@ -1,4 +1,7 @@
-# GPT_Batch
+BatchGPT
+In this project, I have developed a code that takes in a dataset and analyzes it based on user prompts using LLMs like ChatGPT or Claude. The code outputs a dataframe.
+
+
 Basic details you should set
 ```python
 PromptHandler.prompt.info='your info about the dataset'
