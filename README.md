@@ -37,6 +37,18 @@ ph.output_column=['index', aspect']
 Running
 ```python
 data=ph.run(df_cleaned)
+'''
+df : DataFrame
+            DataFrame with "id" and "text" columns.
+        merge_df : bool, optional
+            Set this True if your output will merge to the input by "id". The default is True.
+        max_tokens : int, optional
+            Maximum number of token for each prompt. The default is 2000.
+        row_max_tokens : int, optional
+            Maximum number of token for each row of text. if text has more tokens it will removed. The default is 500.
+        last_rows_margin_loss : int, optional
+            Number of rows that will be ignored in the last prompt in case of error. The default is 5.
+'''
 df_aspects=pd.concat(ph.datas)
 df_aspects.to_csv('aspects.csv', index=False , encoding='utf-8-sig')
 
