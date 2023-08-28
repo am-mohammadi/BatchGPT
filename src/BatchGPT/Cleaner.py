@@ -57,7 +57,7 @@ def translate(texts, source='fa', target='en'):
     
 def clean(texts, remove_mention=False):
     texts['text']=texts['text'].map(lambda x: text_cleaner(x, remove_mention=remove_mention))
-    texts=texts.dropna().reset_index(drop=True)
+    texts=texts.dropna(subset='text').reset_index(drop=True)
     print('texts cleaned.')
     return texts
     
