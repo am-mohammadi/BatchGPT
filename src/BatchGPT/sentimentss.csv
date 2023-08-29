@@ -1,0 +1,9 @@
+﻿index,id,text,sentiment,aspect
+0,0,i feel good today,positive,feeling
+1,1,i feel bad today,negative,feeling
+2,2,i am fine,neutral,feeling
+3,3,i feel good today,positive,feeling
+4,4,i feel bad today,negative,feeling
+5,5,i am fine,neutral,feeling
+6,6,i feel good today,positive,feeling
+7,7,i feel bad today,negative,feeling

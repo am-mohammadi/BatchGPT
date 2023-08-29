@@ -77,7 +77,10 @@ class PromptHandler:
             if token_count>max_tokens or self.counter==len(df)-1:
                 
                 #Final prompt
-                self.prompt_text=last_prompt
+                if self.counter!=len(df)-1:
+                    self.prompt_text=last_prompt
+                else:
+                    self.prompt_text=temp_prompt
                 print('Token count: ', last_token_count, '|Rows:', self.counter, '/', len(df)-1)
                 
                 while True:

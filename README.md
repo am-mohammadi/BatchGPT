@@ -31,7 +31,7 @@ from BatchGPT.Prompt import PromptHandler
 ph=PromptHandler()
 ph.prompt.info='here are some Instagram comments about a post. the post is a video that shows blah blah. "Mohsen F" is the owner of the post.'
 ph.prompt.task='tell from what aspect each comment criticizes Mohsen F. aspects title must be short.'
-ph.output_column=['index', aspect']
+ph.prompt.output_columns=['index', aspect']
 ```
 
 Running
