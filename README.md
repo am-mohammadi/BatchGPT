@@ -49,7 +49,7 @@ df : DataFrame
         last_rows_margin_loss : int, optional
             Number of rows that will be ignored in the last prompt in case of error. The default is 5.
 '''
-df_aspects=pd.concat(ph.datas)
+df_aspects=pd.concat(data)
 df_aspects.to_csv('aspects.csv', index=False , encoding='utf-8-sig')
 
 ```
