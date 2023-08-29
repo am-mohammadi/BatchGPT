@@ -1,6 +1,6 @@
 [project]
 name = "BatchGPT"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
   { name="Amirmahdi Mohammadi", email="mohamadi.mahdi.6@gmail.com" },
 ]
