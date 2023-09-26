@@ -1,7 +1,7 @@
 BatchGPT
 In this project, I have developed a code that takes in a dataset and analyzes it based on user prompts using LLMs like ChatGPT or Claude. The code outputs a dataframe.
 
-A simple daigram
+A simple diagram
 ![BatchGPT drawio (1)](https://github.com/am-mohammadi/BatchGPT/assets/60970821/478f4648-d922-4ca1-ad8b-fc4db8a7f220)
 
 
